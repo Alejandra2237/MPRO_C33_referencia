@@ -13,7 +13,7 @@ var upperMiddle1, upperMiddle2, upperMiddle3, upperMiddle4, upperMiddle5, upperM
 var squareLeft1, squareLeft2;
 var squareRight1, squareRight2;
 
-var wallsGroup, badGroup;
+var wallsGroup, badGroup, treasureGroup;
 
 //variables de cosas malas
 var badThing1, badThing2, badThing3, badThing4, badThing5, badThing6;
@@ -31,9 +31,6 @@ var points=0;
 
 //Estado del juego
 gameState="PLAY";
-
-//Grupo
-var treasureGroup;
 
 function preload(){
   treas1Img = loadImage("./images/diam_blue.png");
